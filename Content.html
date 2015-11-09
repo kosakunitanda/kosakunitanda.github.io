@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--   
+        **********************************************************************************
+        これはInternetExplorerのブラウザではバージョン毎に異なるレンダリングがされてしまって
+        崩れることがあるので、互換表示をさせないために設定するmetaタグです。
+        **********************************************************************************  
+     -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--
+        **********************************************************************************  
+        これはレスポンシブ・ウェブデザインにするために必要なmetaタグです。
+        **********************************************************************************  
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kosaku&#039;s Portfolio Website ::: Content</title>
+
+    <link rel="stylesheet" href="content.css" />
+
+    <!--
+        **********************************************************************************  
+        ここで重要なのは、BootstrapのJSより、jQueryを先に読み込むことです。
+        そうしないとBootstrapのJavaScriptを使う動きが動作しないので注意してください。
+        **********************************************************************************  
+    -->
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+   <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="about.html" >紹介</a></li>
+          <li><a href="Content.html" class="selected">作品</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="sozai_28408.png" alt="" />
+        <h1>作品集</h1>
+      </div>
+    </header>
+    <div class="container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>タイトル</th>
+            <th>備　　考</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+                <li><a href="https://kosakunitanda.github.io/index.html" >はじめてのページ</a></li>
+            </td>
+            <td>思い通りに作れない・・・</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+
